@@ -207,3 +207,6 @@ darkModeToggle.addEventListener('click', function () {
     }
 });
 
+//making copyright year dynamic 
+document.getElementById("year").textContent = new Date().getFullYear();
+
